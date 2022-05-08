@@ -1,0 +1,114 @@
+
+
+ <!DOCTYPE html>
+
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>RPR Contact</title>
+
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="styles.css">
+ 
+   </head>
+   <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html">
+        <img src="./images/rplogo.jpg" alt="Company Logo and name"/> 
+        <h1>Ritewood Properties Realty, LLC</h1>
+      </a>
+      </div>
+      <div class="hamburger icon" id="hamburger">
+        <i class="fa fa-bars"></i>
+      </div>
+    <nav class="nav-a" id="nav-a">
+      <a href="./index.html">HOME</a>
+      <a href="./newHome.html">OUR LISTINGS</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT US</a>        
+    </nav>
+  </header>
+  
+    <div id="main-container">
+    <h1 id="title">Contact</h1> 
+      <p id="description">Thank you for taking the time to contact us.</p>
+ <!-- Content-div  -->
+  <div id="content-div">
+  <section id="section">   
+    <p><span> Address: </span></p> 
+        <p id="street">3851 Holcomb Bridge Road, Suit 400 , Norcross GA 30092</p>
+        <p><span>Phone: </span>678-789-6074</p>
+    <p><span>Fax: </span>111-111-1111 </p>
+  </section> 
+
+   <form id="contact-form"> 
+    <!-- Personal Info div -->
+         <div id="personal-info">
+             <label id="name-label" for="name">Name:(required)</label>
+               <input id="name" type="text" name="name" placeholder="Enter your name"> <!--required-->
+                <p id="namepara">  </p>
+                 <label id="email-label" for="email"> Email:(required)</label>               
+                   <input id="email" type="email" name="email" placeholder="Enter your email">
+                   <p id="email-para"> </p>
+                   <label id="phone-label" for="subject">Phone: </label>
+                   <input id="phone" type="phone" name="phone" placeholder="Enter your phone number">
+
+                 <label id="subject-label" for="subject">Subject:(required)</label>
+                   <input id="subject" type="text" name="subject" placeholder="Enter the subject">
+                   <p id="subject-para">Subject is required</p>  
+                  </div>  <!--End of personal-info           -->
+               <!-- textarea for comments -->
+               <div id="comment-div">   
+            <label for="comments">Any comments or suggestions? </label>
+            <textarea  placeholder="Enter text here..." id="comments" name="comments" rows="8" cols="84"></textarea>
+       </div>  
+     <!-- submit button green -->   
+      <button id="submit" type="submit">SEND </button>
+  </form><!--form end -->
+  </div> <!-- End content-div  -->
+</div> <!--  main-container  -->
+<footer>
+  <div id="footer-div">
+    <div id="coy-name">
+          <h3 class="logo" >Ritewood Properties Realty, LLC</h3>
+        </div>
+      <ul id="footer-nav">
+          <li>
+              <a href="https://www.youtube.com" target="_blank">
+                <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-youtube-social-media-justicon-flat-justicon.png" alt="Youtube icon"/>
+              Youtube</a>
+          </li>
+          <li>
+              <a  href="https://www.spotify.com" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/000000/spotify.png" alt="Spotify Icon"/>
+              Spotify</a>
+          </li>
+          <li>
+              <a  href="https://www.facebook.com" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="facebook icon"/>
+              Facebook</a>
+          </li>
+      </ul>
+  </div>
+  <div id="footer-p">
+  <p >Ritewood Properties Realty, LLC home prices are subject to change. </p>
+    <a href="https://icons8.com/icon/uLWV5A9vXIPu/facebook">Footer icon by Icons8</a>
+    <a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icons created by Freepik - Flaticon</a>
+  </div>
+</footer> 
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="contactapp.js"></script>
+<script src="app2.js"></script>
+
+   </body>
+ </html>
